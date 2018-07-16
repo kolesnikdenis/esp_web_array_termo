@@ -99,7 +99,7 @@ void setup(void){
   //WiFi.config(ip,gateway,subnet);
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
-  WiFi.hostname("esp-wifi-relay");
+  WiFi.hostname("esp-wifi-termo");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
   }
